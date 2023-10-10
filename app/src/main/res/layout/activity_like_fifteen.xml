@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="likeFifteenVM" type="com.chhurngsapplication.app.modules.likefifteen.data.viewmodel.LikeFifteenVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnrectanglefive"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_85pxv"
+        android:layout_marginEnd="@dimen/_30pxh"
+        android:layout_marginTop="@dimen/_21pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearLikeFifteen"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearRowrectanglefive"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <View
+                        android:background="@drawable/rectangle_bg_white_a700_radius_tl_12_tr_12"
+                        android:id="@+id/viewRectangleFive"
+                        android:layout_height="@dimen/_49pxv" android:layout_width="@dimen/_105pxh"/>
+                    <ImageView android:id="@+id/imageOverflowmenu"
+                        android:layout_height="@dimen/_29pxh"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_272pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="@dimen/_7pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_overflowmenu"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_overflowmenu"/>
+                </LinearLayout>
+                <TextView android:ellipsize="end" android:gravity="end"
+                    android:id="@+id/txtMobileAppdesi"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_7pxh"
+                    android:layout_marginStart="@dimen/_36pxh"
+                    android:layout_marginTop="@dimen/_168pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{likeFifteenVM.likeFifteenModel.txtMobileAppdesi}"
+                    style="@style/txtPoppinsregular15_2" tools:text="@string/msg_mobile_app_desi"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLike"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_31pxh"
+                    android:layout_marginStart="@dimen/_31pxh"
+                    android:layout_marginTop="@dimen/_33pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{likeFifteenVM.likeFifteenModel.txtLike}"
+                    style="@style/txtMontserratbold14" tools:text="@string/lbl_like"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="start"
+                    android:id="@+id/recyclerLikeFifteen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_31pxh"
+                    android:layout_marginStart="@dimen/_31pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_27pxh}" tools:itemCount="10" tools:listitem="@layout/row_like_fifteen"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

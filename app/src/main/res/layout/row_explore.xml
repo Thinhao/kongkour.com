@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="exploreRowModel" type="com.chhurngsapplication.app.modules.explore.data.model.ExploreRowModel"/>
+    </data>
+    <ImageView android:id="@+id/imageImageprofileFour"
+        android:layout_height="@dimen/_128pxv"
+        android:layout_width="match_parent" android:scaleType="fitXY"
+        imageRes="@{@drawable/img_imageprofile_58}"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_imageprofile_58"/>
+</layout>

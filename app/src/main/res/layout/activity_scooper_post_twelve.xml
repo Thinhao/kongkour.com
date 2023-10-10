@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="scooperPostTwelveVM" type="com.chhurngsapplication.app.modules.scooperposttwelve.data.viewmodel.ScooperPostTwelveVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearScooperpostT"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameImage1"
+            android:layout_height="@dimen/_733pxv"
+            android:layout_width="match_parent" style="@style/groupStylecornerRadius_1">
+            <ImageView android:id="@+id/imageRectangleSixteen"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_725pxv"
+                android:layout_marginBottom="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                cornerRadius="@{@dimen/_12pxh}"
+                imageRes="@{@drawable/img_rectangle16_5}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle16_5"/>
+            <FrameLayout android:id="@+id/frameStackrectanglenine"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_733pxv" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageRectangleNine"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_725pxv"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_12pxh}"
+                    imageRes="@{@drawable/img_rectangle9_725x381}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle9_725x381"/>
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_orange_600_87_radius_15_5"
+                    android:id="@+id/btnArrowleft"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_31pxh"
+                    android:layout_marginHorizontal="@dimen/_19pxh"
+                    android:layout_marginVertical="@dimen/_19pxv"
+                    android:layout_width="@dimen/_31pxh"
+                    android:paddingHorizontal="@dimen/_10pxh"
+                    android:paddingVertical="@dimen/_10pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_arrowleft" tools:ignore="ContentDescription"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

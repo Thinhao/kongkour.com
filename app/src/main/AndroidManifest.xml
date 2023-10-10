@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.chhurngsapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.chhurngsapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.chhurngsapplication.app.modules.thearith.ui.ThearithActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.howtobuildabrandstrategiesthatworkin2023.ui.HowToBuildABrandStrategiesThatWorkIn2023Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentsothea.ui.CommentSotheaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthree.ui.ScooperPostThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerysixteen.ui.ProfileGallerySixteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentynine.ui.ScooperPostTwentynineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentthearith.ui.CommentThearithActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentsotheaone.ui.CommentSotheaOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.cocacolapdf.ui.CocaColaPdfActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likesix.ui.LikeSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.registerone.ui.RegisterOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostseven.ui.ScooperPostSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwelve.ui.ScooperPostTwelveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetailthree.ui.CoursedetailThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentyone.ui.ScooperPostTwentyoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.rei.ui.ReiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentthearithone.ui.CommentThearithOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.liketwelve.ui.LikeTwelveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostone.ui.ScooperPostOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerythree.ui.ProfileGalleryThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.fordpdfone.ui.FordPdfOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.registerdone.ui.RegisterDoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentmathintwo.ui.CommentMathinTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.layhouyone.ui.LayhouyOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likefifteen.ui.LikeFifteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostfive.ui.ScooperPostFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mcdonalssbrandpdf.ui.McdonalsSBrandPdfActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallery.ui.ProfileGalleryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentyeight.ui.ScooperPostTwentyeightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposteleven.ui.ScooperPostElevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirteen.ui.ScooperPostThirteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.layhouythree.ui.LayhouyThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.kayvey.ui.KayveyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.survey.ui.SurveyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwo.ui.ScooperPostTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.like.ui.LikeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentnathan.ui.CommentNathanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryeight.ui.ProfileGalleryEightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahpost.ui.HannahPostActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.starbukbrandone.ui.StarbukBrandOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentmathinone.ui.CommentMathinOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetail.ui.CoursedetailActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.amdpdf.ui.AmdPdfActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likethree.ui.LikeThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostsixteen.ui.ScooperPostSixteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryseven.ui.ProfileGallerySevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.amdpdfone.ui.AmdPdfOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentscooperone.ui.CommentScooperOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryfifteen.ui.ProfileGalleryFifteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwo.ui.ProfileGalleryTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.theaone.ui.TheaOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentnathanone.ui.CommentNathanOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostfour.ui.ScooperPostFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryone.ui.ProfileGalleryOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.sixteen.ui.SixteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahprofile.ui.HannahProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetailfive.ui.CoursedetailFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostfifteen.ui.ScooperPostFifteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentscoopertwo.ui.CommentScooperTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.fordpdf.ui.FordPdfActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.howtobuildabrandstrategiesthatworkin2024.ui.HowToBuildABrandStrategiesThatWorkIn2024Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerysix.ui.ProfileGallerySixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mcdonaldsbrandone.ui.McdonaldSBrandOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerynine.ui.ProfileGalleryNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerynineteen.ui.ProfileGalleryNineteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.starbukpdf.ui.StarbukPdfActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mathin.ui.MathinActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentyseven.ui.ScooperPostTwentysevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwenty.ui.ScooperPostTwentyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.framethirtyfour.ui.FrameThirtyfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.explore.ui.ExploreActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.top5logocolortrendsof2023colorinspirationone.ui.Top5LogoColorTrendsOf2023ColorInspirationOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.sopheaone.ui.SopheaOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likeeleven.ui.LikeElevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahprofiletwo.ui.HannahProfileTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.layhouy.ui.LayhouyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahpostone.ui.HannahPostOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwentytwo.ui.ProfileGalleryTwentytwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.registerdoneone.ui.RegisterDoneOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentyfour.ui.ScooperPostTwentyfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.fordbrandone.ui.FordBrandOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahprofileone.ui.HannahProfileOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likenine.ui.LikeNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryfive.ui.ProfileGalleryFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryseventeen.ui.ProfileGallerySeventeenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryeighteen.ui.ProfileGalleryEighteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likefour.ui.LikeFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.surveyone.ui.SurveyOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.top5logocolortrendsof2023colorinspiration.ui.Top5LogoColorTrendsOf2023ColorInspirationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.registeren.ui.RegisterEnActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentsoklayhouy.ui.CommentSokLayhouyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposteight.ui.ScooperPostEightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostnineteen.ui.ScooperPostNineteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetailone.ui.CoursedetailOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.nathan.ui.NathanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likeeight.ui.LikeEightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likefive.ui.LikeFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.one.ui.OneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.vannimone.ui.VannimOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.thea.ui.TheaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentyfive.ui.ScooperPostTwentyfiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerythirteen.ui.ProfileGalleryThirteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpost.ui.ScooperPostActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwentyone.ui.ProfileGalleryTwentyoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandpackagingwhyitmattersandhowtonailitwith.ui.BrandPackagingWhyItMattersAndHowToNailItWithActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.register.ui.RegisterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryten.ui.ProfileGalleryTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commenthannah.ui.CommentHannahActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likeseven.ui.LikeSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostnine.ui.ScooperPostNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirtyone.ui.ScooperPostThirtyoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirtythree.ui.ScooperPostThirtythreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likethirteen.ui.LikeThirteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.cocacolabrand.ui.CocaColaBrandActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostseventeen.ui.ScooperPostSeventeenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.liketen.ui.LikeTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandguidelinesexamplestoinspireyourbrandguide.ui.BrandGuidelinesExamplesToInspireYourBrandGuideActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwenty.ui.ProfileGalleryTwentyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.starbukpdfone.ui.StarbukPdfOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.kayveyone.ui.KayveyOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.reione.ui.ReiOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.cocacolapdfone.ui.CocaColaPdfOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.sophea.ui.SopheaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryfour.ui.ProfileGalleryFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentysix.ui.ScooperPostTwentysixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.vannim.ui.VannimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirtytwo.ui.ScooperPostThirtytwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.framethirtytwo.ui.FrameThirtytwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwentythree.ui.ProfileGalleryTwentythreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandguidelinesexamplestoinspireyourbrandguideone.ui.BrandGuidelinesExamplesToInspireYourBrandGuideOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.starbukbrand.ui.StarbukBrandActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentmathin.ui.CommentMathinActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mcdonalssbrandpdfone.ui.McdonalsSBrandPdfOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentytwo.ui.ScooperPostTwentytwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.amdbrand.ui.AmdBrandActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostfourteen.ui.ScooperPostFourteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandpackagingwhyitmattersandhowtonailitwithone.ui.BrandPackagingWhyItMattersAndHowToNailItWithOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.exploreone.ui.ExploreOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.hannahprofilethree.ui.HannahProfileThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likefourteen.ui.LikeFourteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetailtwo.ui.CoursedetailTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.coursedetailfour.ui.CoursedetailFourActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.chhurngsapplication.app.modules.registerkh.ui.RegisterKhActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposttwentythree.ui.ScooperPostTwentythreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.fordbrand.ui.FordBrandActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mathinone.ui.MathinOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentscooper.ui.CommentScooperActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.cocacolabrandone.ui.CocaColaBrandOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegallerytwelve.ui.ProfileGalleryTwelveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperposteighteen.ui.ScooperPostEighteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.layhouytwo.ui.LayhouyTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.amdbrandone.ui.AmdBrandOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likeseventeen.ui.LikeSeventeenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentsoklayhouyone.ui.CommentSokLayhouyOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirtyfour.ui.ScooperPostThirtyfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.mcdonaldsbrand.ui.McdonaldSBrandActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryfourteen.ui.ProfileGalleryFourteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostsix.ui.ScooperPostSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentmathinthree.ui.CommentMathinThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirty.ui.ScooperPostThirtyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.homeone.ui.HomeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.thearithone.ui.ThearithOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandingpageone.ui.BrandingPageOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commentscooperthree.ui.CommentScooperThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.commenthannahone.ui.CommentHannahOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.liketwo.ui.LikeTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.framefifteen.ui.FrameFifteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.framefourteen.ui.FrameFourteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likeone.ui.LikeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostten.ui.ScooperPostTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.nathanone.ui.NathanOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.profilegalleryeleven.ui.ProfileGalleryElevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.scooperpostthirtyfive.ui.ScooperPostThirtyfiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.likesixteen.ui.LikeSixteenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.chhurngsapplication.app.modules.brandingpage.ui.BrandingPageActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

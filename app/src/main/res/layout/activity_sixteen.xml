@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="sixteenVM" type="com.chhurngsapplication.app.modules.sixteen.data.viewmodel.SixteenVM"/>
+    </data>
+    <LinearLayout android:gravity="end"
+        android:id="@+id/linearColumnwhatcoursesar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnarrowleft"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1pxh"
+            android:layout_marginStart="@dimen/_288pxh"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleorange_600">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_30pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_46pxv"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageButton
+                        android:background="@drawable/rectangle_bg_white_a700_radius_3"
+                        android:id="@+id/btnArrowleft"
+                        android:layout_height="@dimen/_23pxh"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="@dimen/_23pxh"
+                        android:paddingHorizontal="@dimen/_5pxh"
+                        android:paddingVertical="@dimen/_5pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_arrowleft" tools:ignore="ContentDescription"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtELearning"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_77pxh"
+                        android:layout_weight="0.88"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{sixteenVM.sixteenModel.txtELearning}"
+                        style="@style/txtPoppinsbold30" tools:text="@string/lbl_e_learning2"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.SearchView
+                android:background="@drawable/rectangle_bg_gray_100_radius_8"
+                android:gravity="center_horizontal"
+                android:id="@+id/searchViewSearchBar"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_41pxv"
+                android:layout_marginEnd="@dimen/_30pxh"
+                android:layout_marginStart="@dimen/_30pxh"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_width="match_parent"
+                android:theme="@style/searchViewSearchBar"
+                app:iconifiedByDefault="false"
+                app:queryBackground="@android:color/transparent"
+                app:queryHint="@string/lbl_search2" app:searchIcon="@drawable/img_search_gray_400"/>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearSixteen"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_135pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWhatcoursesar"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_72pxh"
+                    android:layout_marginStart="@dimen/_72pxh"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_8pxh"
+                    android:singleLine="true"
+                    android:text="@{sixteenVM.sixteenModel.txtWhatcoursesar}"
+                    style="@style/txtPoppinsregular15_3" tools:text="@string/msg_what_courses_ar"/>
+                <androidx.appcompat.widget.SearchView
+                    android:background="@drawable/rectangle_bg_white_a700_border_gray_201_radius_8"
+                    android:gravity="end"
+                    android:id="@+id/searchViewSearch"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_22pxh"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginTop="@dimen/_32pxv"
+                    android:layout_width="match_parent"
+                    android:theme="@style/searchViewSearch"
+                    app:iconifiedByDefault="false"
+                    app:queryBackground="@android:color/transparent"
+                    app:queryHint="@string/lbl_find_a_course" app:searchIcon="@drawable/img_microphone"/>
+                <HorizontalScrollView android:fillViewport="true"
+                    android:gravity="start"
+                    android:id="@+id/horizontalScrollHorizontalscrolllanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_31pxv"
+                    android:layout_width="match_parent" android:scrollbars="none">
+                    <com.asksira.loopingviewpager.LoopingViewPager
+                        android:id="@+id/imageSliderSliderlanguage"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        app:autoScroll="true" app:isInfinite="true" app:scrollInterval="5000"/>
+                </HorizontalScrollView>
+
+                <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                    android:id="@+id/indicatorDotSlider"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_172pxh"
+                    android:layout_marginStart="@dimen/_172pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="wrap_content"
+                    app:drawable_normal="@drawable/indicator_unselected_bg_gray_202_radius_8"
+                    app:drawable_selected="@drawable/indicator_selected_bg_blue_900_radius_8"
+                    app:indicator_size="@dimen/_16pxh" app:indicator_spacing="@dimen/_4pxh"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumncoursetype"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_101pxh"
+                    android:layout_marginStart="@dimen/_101pxh"
+                    android:layout_marginTop="@dimen/_39pxv"
+                    android:layout_width="wrap_content" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtCoursetype"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:lineSpacingExtra="@dimen/_9pxh"
+                        android:singleLine="true"
+                        android:text="@{sixteenVM.sixteenModel.txtCoursetype}"
+                        style="@style/txtPoppinsbold18_1" tools:text="@string/lbl_course_type"/>
+                    <LinearLayout android:id="@+id/linearRowitem"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="wrap_content" android:orientation="horizontal">
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_radius_2"
+                            android:drawablePadding="@dimen/_12pxh"
+                            android:drawableStart="@drawable/img_ticket"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_design"
+                            android:id="@+id/etItem"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.52"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_8pxh"
+                            android:paddingBottom="@dimen/_12pxv"
+                            android:paddingEnd="@dimen/_20pxh"
+                            android:paddingStart="@dimen/_20pxh"
+                            android:paddingTop="@dimen/_18pxv"
+                            android:singleLine="true"
+                            android:text="@={sixteenVM.sixteenModel.etItemValue}"
+                            android:textColorHint="@color/black_901"
+                            style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_white_a700_border_gray_301_radius_2"
+                            android:drawablePadding="@dimen/_12pxh"
+                            android:drawableStart="@drawable/img_group"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_video"
+                            android:id="@+id/etLanguageOne"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_weight="0.48"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_8pxh"
+                            android:paddingBottom="@dimen/_15pxv"
+                            android:paddingEnd="@dimen/_20pxh"
+                            android:paddingStart="@dimen/_20pxh"
+                            android:paddingTop="@dimen/_15pxv"
+                            android:singleLine="true"
+                            android:text="@={sixteenVM.sixteenModel.etLanguageOneValue}"
+                            android:textColorHint="@color/black_901"
+                            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumnpopularcourses"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_38pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowpopularcourses"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="wrap_content" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtPopularcourses"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.76"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_9pxh"
+                            android:singleLine="true"
+                            android:text="@{sixteenVM.sixteenModel.txtPopularcourses}"
+                            style="@style/txtPoppinsbold18_1" tools:text="@string/lbl_popular_courses"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtSeemore"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_7pxv"
+                            android:layout_marginStart="@dimen/_120pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_weight="0.24"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_5pxh"
+                            android:singleLine="true"
+                            android:text="@{sixteenVM.sixteenModel.txtSeemore}"
+                            style="@style/txtPoppinsregular10_3" tools:text="@string/lbl_see_more"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerListplaceholderFour"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_21pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_18pxh}" tools:itemCount="3" tools:listitem="@layout/row_listplaceholder_four1"/>
+                </LinearLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtRecentCourses"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_225pxh"
+                    android:layout_marginStart="@dimen/_225pxh"
+                    android:layout_marginTop="@dimen/_32pxv"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_9pxh"
+                    android:singleLine="true"
+                    android:text="@{sixteenVM.sixteenModel.txtRecentCourses}"
+                    style="@style/txtPoppinsbold18_1" tools:text="@string/lbl_recent_courses"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="end"
+                    android:id="@+id/recyclerListplaceholderFive"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_23pxh"
+                    android:layout_marginStart="@dimen/_23pxh"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_1pxh}" tools:itemCount="9" tools:listitem="@layout/row_listplaceholder_five1"/>
+                <View
+                    android:background="@drawable/rectangle_bg_gray_101"
+                    android:id="@+id/lineBorderBot"
+                    android:layout_gravity="end"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginEnd="@dimen/_23pxh"
+                    android:layout_marginStart="@dimen/_23pxh" android:layout_width="@dimen/_375pxh"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtBestTeachers"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_142pxh"
+                    android:layout_marginStart="@dimen/_142pxh"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.05"
+                    android:singleLine="true"
+                    android:text="@{sixteenVM.sixteenModel.txtBestTeachers}"
+                    style="@style/txtContent16" tools:text="@string/lbl31"/>
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearRowgordonnorman"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_200pxh"
+                    android:layout_marginStart="@dimen/_200pxh"
+                    android:layout_marginTop="@dimen/_14pxv"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal" style="@style/groupStylewhite_6">
+                    <FrameLayout android:id="@+id/frameImage"
+                        android:layout_height="@dimen/_67pxv"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="@dimen/_67pxh" style="@style/groupStylecornerRadius_5">
+                        <ImageView
+                            android:id="@+id/imageImageThirtyThree"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_67pxh"
+                            android:layout_width="@dimen/_67pxh"
+                            android:scaleType="fitXY"
+                            cornerRadius="@{@dimen/_6pxh}"
+                            imageRes="@{@drawable/img_logo084}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_logo084"/>
+                    </FrameLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumngordonnorman"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_31pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_18pxh"
+                        android:layout_marginTop="@dimen/_26pxv"
+                        android:layout_weight="0.51"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtGordonNorman"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="match_parent"
+                            android:letterSpacing="0.05"
+                            android:singleLine="true"
+                            android:text="@{sixteenVM.sixteenModel.txtGordonNorman}"
+                            style="@style/txtPoppinsbold14" tools:text="@string/lbl_yi_hao"/>
+                        <TextView android:id="@+id/txtUXUIDesigner"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2pxv"
+                            android:layout_width="match_parent"
+                            android:text="@{sixteenVM.sixteenModel.txtUXUIDesigner}"
+                            style="@style/txtPoppinsregular5" tools:text="@string/msg_master_all_the"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="mcdonalsSBrandPdfOneVM" type="com.chhurngsapplication.app.modules.mcdonalssbrandpdfone.data.viewmodel.McdonalsSBrandPdfOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn000136"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearMcDonalssbran"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyle_3">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowarrowleft"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStyleorange_600">
+                        <FrameLayout
+                            android:id="@+id/frameStackarrowleft"
+                            android:layout_height="@dimen/_142pxv"
+                            android:layout_width="@dimen/_50pxh" style="@style/groupStyleorange_A700cornerRadius">
+                            <ImageView android:id="@+id/imageArrowleft"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_17pxh"
+                                android:layout_marginBottom="@dimen/_40pxv"
+                                android:layout_marginEnd="@dimen/_18pxh"
+                                android:layout_marginStart="@dimen/_18pxh"
+                                android:layout_marginTop="@dimen/_40pxv"
+                                android:layout_width="@dimen/_13pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_arrowleft"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackfortysix"
+                            android:layout_height="@dimen/_120pxv"
+                            android:layout_marginBottom="@dimen/_14pxv"
+                            android:layout_marginEnd="@dimen/_114pxh"
+                            android:layout_marginStart="@dimen/_78pxh"
+                            android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_171pxh">
+                            <TextView android:ellipsize="end"
+                                android:gravity="top|start"
+                                android:id="@+id/txtFortySix"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{mcdonalsSBrandPdfOneVM.mcdonalsSBrandPdfOneModel.txtFortySix}"
+                                style="@style/txtContentbold18" tools:text="@string/msg15"/>
+                            <ImageView
+                                android:id="@+id/imageLayerTwelve"
+                                android:layout_gravity="end"
+                                android:layout_height="@dimen/_116pxh"
+                                android:layout_marginBottom="@dimen/_4pxv"
+                                android:layout_marginEnd="@dimen/_19pxh"
+                                android:layout_marginStart="@dimen/_19pxh"
+                                android:layout_width="@dimen/_126pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_layer11}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_layer11"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:id="@+id/image000136"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000136_241x414}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000136_241x414"/>
+                <ImageView android:id="@+id/image000144"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000144_241x414}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000144_241x414"/>
+                <ImageView android:id="@+id/image000140"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000140_241x414}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000140_241x414"/>
+                <ImageView android:id="@+id/image000148"
+                    android:layout_height="@dimen/_33pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000148_33x414"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000148_33x414"/>
+                <ImageView android:id="@+id/image000128"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_218pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000128_1x414"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000128_1x414"/>
+                <ImageView android:id="@+id/image000132"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_469pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000132_1x414"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000132_1x414"/>
+                <ImageView android:id="@+id/image000130"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_720pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000130"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000130"/>
+                <ImageView android:id="@+id/image000134"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="@dimen/_971pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000134"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000134"/>
+                <ImageView android:id="@+id/image000138"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="1224dp"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000138"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000138"/>
+                <ImageView android:id="@+id/image000146"
+                    android:layout_height="@dimen/_1pxh"
+                    android:layout_marginTop="1475dp"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_000146"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000146"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

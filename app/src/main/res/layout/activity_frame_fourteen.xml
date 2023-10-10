@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="frameFourteenVM" type="com.chhurngsapplication.app.modules.framefourteen.data.viewmodel.FrameFourteenVM"/>
+    </data>
+    <View android:id="@+id/viewFrameFourteen"
+        android:layout_height="match_parent" android:layout_width="match_parent"/>
+</layout>

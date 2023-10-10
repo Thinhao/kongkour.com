@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="datalist4RowModel" type="com.chhurngsapplication.app.modules.coursedetail.data.model.Datalist4RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearItem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_5">
+        <LinearLayout android:id="@+id/linearRowintroductionto"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12pxv"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_weight="0.77" android:layout_width="0dp" android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btn1"
+                android:layout_height="@dimen/_54pxh"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_width="@dimen/_54pxh"
+                android:lineSpacingExtra="@dimen/_9pxh"
+                android:paddingBottom="@dimen/_13pxv"
+                android:paddingEnd="@dimen/_16pxh"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true" android:text="@string/lbl_12"
+                android:textAllCaps="false"
+                style="@style/btnRoundedOutline" tools:text="@string/lbl_12"/>
+            <FrameLayout android:id="@+id/frameStackintroductionto"
+                android:layout_height="@dimen/_51pxv"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_3pxv" android:layout_width="@dimen/_96pxh">
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtIntroductionto"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_3pxh"
+                    android:text="@{datalist4RowModel.txtIntroductionto}"
+                    style="@style/txtPoppinsmedium13" tools:text="@string/msg_introduction_to2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTime"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_5pxh"
+                    android:singleLine="true"
+                    android:text="@{datalist4RowModel.txtTime}"
+                    style="@style/txtPoppinsregular10" tools:text="@string/lbl_24min"/>
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageBtnStart"
+            android:layout_height="@dimen/_52pxh"
+            android:layout_marginBottom="@dimen/_15pxv"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_103pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="@dimen/_50pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_btnstart"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_btnstart"/>
+    </LinearLayout>
+</layout>

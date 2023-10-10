@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="staggered3RowModel" type="com.chhurngsapplication.app.modules.profilegalleryfourteen.data.model.Staggered3RowModel"/>
+    </data>
+    <ImageView android:id="@+id/imageImageprofileFour"
+        android:layout_height="@dimen/_128pxv"
+        android:layout_width="match_parent" android:scaleType="fitXY"
+        imageRes="@{@drawable/img_imageprofile_26}"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_imageprofile_26"/>
+</layout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="brandingPageRowModel" type="com.chhurngsapplication.app.modules.brandingpage.data.model.BrandingPageRowModel"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearApartment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_1">
+        <ImageView android:id="@+id/imagePLACEYOURDESIThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_144pxh"
+            android:layout_marginEnd="@dimen/_13pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="@dimen/_322pxh"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_12pxh}"
+            imageRes="@{@drawable/img_placeyourdesi_144x322}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_placeyourdesi_144x322"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtHowtoBuilda"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_13pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{brandingPageRowModel.txtHowtoBuilda}"
+            style="@style/txtPlusJakartaSansromansemibold16" tools:text="@string/msg_how_to_build_a"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtLearnhowtobu"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_13pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{brandingPageRowModel.txtLearnhowtobu}"
+            style="@style/txtPlusJakartaSansromanregular10" tools:text="@string/msg_learn_how_to_bu"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowstarTwo"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_17pxv"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageView android:id="@+id/imageStarTwo"
+                android:layout_height="@dimen/_10pxh"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="@dimen/_11pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_star"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_star"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txt5046reviewsTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_weight="0.87" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{brandingPageRowModel.txt5046reviewsTwo}"
+                style="@style/txtPlusJakartaSansromanregular10" tools:text="@string/msg_5_0_46_reviews"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
