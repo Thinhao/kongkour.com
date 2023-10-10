@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="commentSotheaOneVM" type="com.chhurngsapplication.app.modules.commentsotheaone.data.viewmodel.CommentSotheaOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnrectanglefive"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_128pxv"
+        android:layout_marginEnd="@dimen/_30pxh"
+        android:layout_marginTop="@dimen/_21pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearCommentSothe"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearRowrectanglefive"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <View
+                        android:background="@drawable/rectangle_bg_white_a700_radius_tl_12_tr_12"
+                        android:id="@+id/viewRectangleFive"
+                        android:layout_height="@dimen/_49pxv" android:layout_width="@dimen/_105pxh"/>
+                    <ImageView android:id="@+id/imageOverflowmenu"
+                        android:layout_height="@dimen/_29pxh"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginStart="@dimen/_272pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="@dimen/_7pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_overflowmenu"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_overflowmenu"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowprofile"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_237pxh"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_27pxv"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageProfile"
+                        android:layout_height="@dimen/_45pxh"
+                        android:layout_width="@dimen/_44pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_profile"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_profile"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSothea"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_weight="0.55"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtSothea}"
+                        style="@style/txtPoppinssemibold15_1" tools:text="@string/lbl_sothea"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageRectangleTwenty"
+                    android:layout_height="@dimen/_226pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_29pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_rectangle15}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle15"/>
+                <TextView android:gravity="start"
+                    android:id="@+id/txtLanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_92pxh"
+                    android:layout_marginStart="@dimen/_31pxh"
+                    android:layout_marginTop="@dimen/_146pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtLanguage}"
+                    style="@style/txtMontserratromansemibold15_1" tools:text="@string/msg_best_courses_fo"/>
+                <FrameLayout android:id="@+id/frameStacklanguageOne"
+                    android:layout_height="@dimen/_446pxv"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_36pxv" android:layout_width="@dimen/_353pxh">
+                    <LinearLayout android:id="@+id/linearComments"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtLanguageOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtLanguageOne}"
+                            style="@style/txtMontserratbold14" tools:text="@string/lbl_comments"/>
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRowellipsefortythree"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv"
+                            android:layout_width="wrap_content" android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/imageEllipseFortyThree"
+                                android:layout_height="@dimen/_46pxh"
+                                android:layout_width="@dimen/_46pxh"
+                                android:scaleType="centerCrop"
+                                circular="@{true}"
+                                imageRes="@{@drawable/img_ellipse43_12}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse43_12"/>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearColumnanandavia"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5pxv"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_weight="0.73"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtAnandaVia"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtAnandaVia}"
+                                    style="@style/txtMontserratbold13" tools:text="@string/lbl_darany"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtLoremipsumdol"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_10pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtLoremipsumdol}"
+                                    style="@style/txtMontserratregular10" tools:text="@string/msg_i_love_this_go"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageGroup267"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_marginBottom="@dimen/_12pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group267"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group267"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnellipsefortythreeOne"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_131pxv"
+                        android:layout_marginTop="@dimen/_131pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRowellipsefortythreeOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/imageEllipseFortyThreeOne"
+                                android:layout_height="@dimen/_46pxh"
+                                android:layout_marginBottom="@dimen/_18pxv"
+                                android:layout_width="@dimen/_46pxh"
+                                android:scaleType="centerCrop"
+                                circular="@{true}"
+                                imageRes="@{@drawable/img_ellipse43_13}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse43_13"/>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearColumnanandaviaOne"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_weight="0.85"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtAnandaViaOne"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtAnandaViaOne}"
+                                    style="@style/txtMontserratbold13" tools:text="@string/lbl_choum"/>
+                                <TextView
+                                    android:id="@+id/txtDescription"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_10pxv"
+                                    android:layout_width="match_parent"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtDescription}"
+                                    style="@style/txtMontserratregular10" tools:text="@string/msg_thank_you_for_m"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageGroup267One"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group267"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group267"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnellipsefortythreeTwo"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_134pxv"
+                        android:layout_marginTop="@dimen/_134pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearRowellipsefortythreeTwo"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content" android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/imageEllipseFortyThreeTwo"
+                                android:layout_height="@dimen/_46pxh"
+                                android:layout_width="@dimen/_46pxh"
+                                android:scaleType="centerCrop"
+                                circular="@{true}"
+                                imageRes="@{@drawable/img_ellipse43_14}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse43_14"/>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearColumnanandaviaTwo"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_6pxv"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_weight="0.59"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtAnandaViaTwo"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtAnandaViaTwo}"
+                                    style="@style/txtMontserratbold13" tools:text="@string/lbl_chhorvon"/>
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtLoremipsumdolOne"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_marginTop="@dimen/_10pxv"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtLoremipsumdolOne}"
+                                    style="@style/txtMontserratregular10" tools:text="@string/lbl_good_idea"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageGroup267Two"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_27pxv"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group267"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group267"/>
+                    </LinearLayout>
+                    <FrameLayout
+                        android:id="@+id/frameStackellipsefortythreeThree"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_142pxv"
+                        android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_353pxh">
+                        <LinearLayout
+                            android:id="@+id/linearRowellipsefortythreeThree"
+                            android:layout_gravity="top|start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/imageEllipseFortyThreeThree"
+                                android:layout_height="@dimen/_46pxh"
+                                android:layout_marginBottom="@dimen/_78pxv"
+                                android:layout_width="@dimen/_46pxh"
+                                android:scaleType="centerCrop"
+                                circular="@{true}"
+                                imageRes="@{@drawable/img_ellipse43_15}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse43_15"/>
+                            <LinearLayout android:gravity="start"
+                                android:id="@+id/linearColumnanandaviaThree"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_22pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_weight="0.85"
+                                android:layout_width="0dp" android:orientation="vertical">
+                                <TextView android:ellipsize="end"
+                                    android:id="@+id/txtAnandaViaThree"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/_10pxh"
+                                    android:layout_width="wrap_content"
+                                    android:singleLine="true"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtAnandaViaThree}"
+                                    style="@style/txtMontserratbold13" tools:text="@string/lbl_chhaya"/>
+                                <TextView
+                                    android:id="@+id/txtDescriptionOne"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_9pxv"
+                                    android:layout_width="match_parent"
+                                    android:text="@{commentSotheaOneVM.commentSotheaOneModel.txtDescriptionOne}"
+                                    style="@style/txtMontserratregular10" tools:text="@string/msg_highlight_point"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:id="@+id/imageGroup267Three"
+                            android:layout_gravity="bottom|end"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="@dimen/_58pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group267"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group267"/>
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

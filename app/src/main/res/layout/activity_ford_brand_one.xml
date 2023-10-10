@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="fordBrandOneVM" type="com.chhurngsapplication.app.modules.fordbrandone.data.viewmodel.FordBrandOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn0001176"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_108pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearFordBrandOn"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyle_3">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowarrowleft"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStyleorange_600">
+                        <FrameLayout
+                            android:id="@+id/frameStackarrowleft"
+                            android:layout_height="@dimen/_142pxv"
+                            android:layout_width="@dimen/_50pxh" style="@style/groupStyleorange_A700cornerRadius">
+                            <ImageView android:id="@+id/imageArrowleft"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_15pxh"
+                                android:layout_marginBottom="@dimen/_63pxv"
+                                android:layout_marginEnd="@dimen/_16pxh"
+                                android:layout_marginStart="@dimen/_16pxh"
+                                android:layout_marginTop="@dimen/_63pxv"
+                                android:layout_width="@dimen/_13pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_arrowleft"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackbrandguideline"
+                            android:layout_height="@dimen/_118pxv"
+                            android:layout_marginBottom="@dimen/_24pxv"
+                            android:layout_marginEnd="@dimen/_117pxh"
+                            android:layout_marginStart="@dimen/_88pxh" android:layout_width="@dimen/_158pxh">
+                            <TextView android:ellipsize="end"
+                                android:gravity="top|start"
+                                android:id="@+id/txtBrandGuideline"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_5pxv"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{fordBrandOneVM.fordBrandOneModel.txtBrandGuideline}"
+                                style="@style/txtPoppinsbold18" tools:text="@string/msg_brand_guideline3"/>
+                            <ImageView android:id="@+id/imageAadOne"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_118pxh"
+                                android:layout_marginEnd="@dimen/_8pxh"
+                                android:layout_marginStart="@dimen/_3pxh"
+                                android:layout_width="@dimen/_147pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_aad1_118x147}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_aad1_118x147"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:gravity="center_horizontal"
+                    android:id="@+id/image0001176"
+                    android:layout_height="@dimen/_220pxh"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_29pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    cornerRadius="@{@dimen/_11pxh}"
+                    imageRes="@{@drawable/img_0001176}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_0001176"/>
+                <TextView android:id="@+id/txtFORD2021"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="wrap_content"
+                    android:text="@{fordBrandOneVM.fordBrandOneModel.txtFORD2021}"
+                    style="@style/txtPlusJakartaSansromanbold13" tools:text="@string/lbl_ford_2021"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWelcome"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{fordBrandOneVM.fordBrandOneModel.txtWelcome}"
+                    style="@style/txtPlusJakartaSansromanbold24" tools:text="@string/lbl_welcome"/>
+                <TextView android:gravity="start"
+                    android:id="@+id/txtDescription"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_14pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{fordBrandOneVM.fordBrandOneModel.txtDescription}"
+                    style="@style/txtPlusJakartaSansromanregular12" tools:text="@string/msg_the_ford_brand"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowstar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageStar"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_marginBottom="@dimen/_2pxv"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_11pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_star"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_star"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt5046reviews"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_weight="0.87"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{fordBrandOneVM.fordBrandOneModel.txt5046reviews}"
+                        style="@style/txtPlusJakartaSansromanregular10_1" tools:text="@string/msg_5_0_46_reviews"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnBrandGuidelinesOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_53pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_50pxv"
+                    android:layout_width="@dimen/_348pxh"
+                    android:paddingBottom="@dimen/_14pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_14pxv"
+                    android:singleLine="true"
+                    android:text="@string/msg_brand_guideline3"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_9" tools:text="@string/msg_brand_guideline3"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

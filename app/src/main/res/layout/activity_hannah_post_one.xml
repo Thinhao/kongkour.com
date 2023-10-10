@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="hannahPostOneVM" type="com.chhurngsapplication.app.modules.hannahpostone.data.viewmodel.HannahPostOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameHannahPostOn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageRectangleTwenty"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_357pxh"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_rectangle20_357x350}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle20_357x350"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_orange_600_87_radius_14"
+            android:id="@+id/btnArrowleft"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_28pxh"
+            android:layout_marginHorizontal="@dimen/_13pxh"
+            android:layout_marginVertical="@dimen/_13pxv"
+            android:layout_width="@dimen/_28pxh"
+            android:paddingHorizontal="@dimen/_8pxh"
+            android:paddingVertical="@dimen/_8pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrowleft" tools:ignore="ContentDescription"/>
+    </FrameLayout>
+</layout>

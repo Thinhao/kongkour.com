@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="amdPdfVM" type="com.chhurngsapplication.app.modules.amdpdf.data.viewmodel.AmdPdfVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn000124"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearAMDPDF"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStyle_3">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearRowarrowleft"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStyleorange_600">
+                        <FrameLayout
+                            android:id="@+id/frameStackarrowleft"
+                            android:layout_height="@dimen/_142pxv"
+                            android:layout_width="@dimen/_50pxh" style="@style/groupStyleorange_A700cornerRadius">
+                            <ImageView android:id="@+id/imageArrowleft"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_17pxh"
+                                android:layout_marginBottom="@dimen/_40pxv"
+                                android:layout_marginEnd="@dimen/_18pxh"
+                                android:layout_marginStart="@dimen/_18pxh"
+                                android:layout_marginTop="@dimen/_40pxv"
+                                android:layout_width="@dimen/_13pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_arrowleft"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackuntitled1zthree"
+                            android:layout_height="@dimen/_135pxv"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:layout_marginEnd="@dimen/_126pxh"
+                            android:layout_marginStart="@dimen/_79pxh" android:layout_width="@dimen/_158pxh">
+                            <ImageView
+                                android:id="@+id/imageUntitled1zThree"
+                                android:layout_gravity="center"
+                                android:layout_height="@dimen/_135pxh"
+                                android:layout_marginEnd="@dimen/_3pxh"
+                                android:layout_marginStart="@dimen/_1pxh"
+                                android:layout_width="@dimen/_154pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_untitled1z3_2}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_untitled1z3_2"/>
+                            <TextView android:ellipsize="end"
+                                android:gravity="top|start"
+                                android:id="@+id/txtBrandGuideline"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{amdPdfVM.amdPdfModel.txtBrandGuideline}"
+                                style="@style/txtPoppinsbold18" tools:text="@string/msg_brand_guideline3"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:id="@+id/image000124"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_35pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000124}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000124"/>
+                <ImageView android:id="@+id/image000126"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000126}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000126"/>
+                <ImageView android:id="@+id/image000125"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000125}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000125"/>
+                <ImageView android:id="@+id/image000127"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000127}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000127"/>
+                <ImageView android:id="@+id/image000136"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000136}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000136"/>
+                <ImageView android:id="@+id/image000144"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000144}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000144"/>
+                <ImageView android:id="@+id/image000140"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000140}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000140"/>
+                <ImageView android:id="@+id/image000148"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000148}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000148"/>
+                <ImageView android:id="@+id/image000128"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000128}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000128"/>
+                <ImageView android:id="@+id/image000132"
+                    android:layout_height="@dimen/_241pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_000132}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_000132"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

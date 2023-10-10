@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="scooperPostSixVM" type="com.chhurngsapplication.app.modules.scooperpostsix.data.viewmodel.ScooperPostSixVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameScooperpostS"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageRectangleSixteen"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_260pxh"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_rectangle16_260x381}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle16_260x381"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_orange_600_87_radius_15_5"
+            android:id="@+id/btnArrowleft"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_31pxh"
+            android:layout_marginBottom="@dimen/_13pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="@dimen/_31pxh"
+            android:paddingHorizontal="@dimen/_10pxh"
+            android:paddingVertical="@dimen/_10pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrowleft" tools:ignore="ContentDescription"/>
+    </FrameLayout>
+</layout>

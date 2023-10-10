@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">chhurng_s_application2</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue </string>
+<string name="lbl_blush_beige">Blush beige </string>
+<string name="lbl_business_cards">Business cards</string>
+<string name="msg_456">456 មនុស្សបានចូលរួម</string>
+<string name="lbl_the"> The </string>
+<string name="msg_differentiation">"differentiation from competitors, a thorough understanding of the specific brand and market is required. As an AI language model, I don't have access to real-time data on specific brands. However, I can provide you with general guidance on identifying a brand's unique value proposition and differentiation. Here are some steps to consider:
+Identify the brand's target audience: Understand who the brand is targeting and what their needs, preferences, and pain points are.
+Analyze the competitive landscape: Research and analyze competitors to identify their strengths, weaknesses, and the value they provide to customers."</string>
+<string name="msg_graphic_desinge">Graphic Desinger</string>
+<string name="lbl_2_earthy_hues">2. Earthy hues</string>
+<string name="msg_analyze_custome">Analyze customer demographics for existing 
+         customers and target specific niche market  
+         groups  for new businesses, like vintage collectors.
+Research similar brands and study their customers.
+Conduct user studies, interviews, surveys to 
+         understand customer needs.
+Generate buyer persona based on research 
+         findings.
+Create multiple personas to analyze product fit 
+         for each subgroup.</string>
+<string name="lbl_80m">80M\u200b\u200b</string>
+<string name="msg_information_ar">Information 
+Architecture</string>
+<string name="lbl_17_content">17 Content</string>
+<string name="lbl_fonts">fonts</string>
+<string name="lbl_massage">Massage</string>
+<string name="lbl_5k">5k ចូលចិត្តត</string>
+<string name="lbl_3k">3k ចូលចិត្ត</string>
+<string name="lbl_52">$5</string>
+<string name="msg_top_5_logo_colo">Top 5 Logo Color Trends 
+of 2023 + Color Inspiration</string>
+<string name="msg_researching_the">Researching the target market lets businesses understand their potential customers and the marketing strategy that appeals to them.
+
+One of the best ways to conduct market research is by defining a user persona, a fictional representation of your ideal customer.</string>
+<string name="lbl_53">#5</string>
+<string name="lbl_brand_voice">brand voice</string>
+<string name="lbl_332_comments">332 comments </string>
+<string name="msg_brand_positioni2">Brand positioning differentiates a business by offering unique features and benefits that set it apart from competitors.
+Start by figuring out key features and benefits that other companies do not offer, such as:
+
+</string>
+<string name="msg_sign_in_with_go">Sign in with Google</string>
+<string name="msg_tip_even_the_s">Tip: Even the smallest touch of branding on your packaging can step your packaging game up. If you\u2019re after an economical option, you could order customized tape with your logo on it to seal a plain box and liven up its exterior.</string>
+<string name="msg_how_to_build_a3">How to Build a Brand</string>
+<string name="msg_how_to_build_a2">How to Build a Brand: 
+Strategies That Work in 2023</string>
+<string name="lbl_2k">2k  ចូលចិត្ត</string>
+<string name="lbl_12_comment">12 Comment</string>
+<string name="lbl_brand_identity">brand identity</string>
+<string name="lbl_42">4. </string>
+<string name="msg_typography_play">Typography plays a crucial role in graphic design. A course on typography can cover topics</string>
+<string name="lbl_100_comment">100 Comment</string>
+<string name="lbl_dark_colors">Dark colors: </string>
+<string name="lbl_43">#4</string>
+<string name="lbl_1_zesty_orange">1. Zesty orange</string>
+<string name="msg_234">(234 ការពិភាក្សា)</string>
+<string name="msg_passionate_grap2">Passionate graphic designer with a flair 
+for creativity and a keen eye for detail. </string>
+<string name="lbl_artist">Artist</string>
+<string name="msg_user_informatio">User Information</string>
+<string name="lbl20"> មតិយោបល់</string>
+<string name="lbl21">  ចូលចិត្ត</string>
+<string name="lbl22"> ចូលចិត្ត</string>
+<string name="lbl_starbucks">Starbucks
+</string>
+<string name="msg_offer_24_7_cust"> Offer 24/7 customer support and after-sales service for loyalty.
+</string>
+<string name="lbl23">ត</string>
+<string name="lbl24">មតិយោបល់</string>
+<string name="lbl25">ម៉ាកយីហោពេញនិយម</string>
+<string name="lbl_recent_courses">Recent Courses</string>
+<string name="lbl_like">Like</string>
+<string name="lbl26">ច្រើនទៀត</string>
+<string name="lbl27">ម៉ាកយីហោ
+</string>
+<string name="lbl_follower"> Follower</string>
+<string name="lbl28">.
+</string>
+<string name="lbl_f7e8d3">#f7e8d3
+</string>
+<string name="lbl29">មើលច្រើនទៀត</string>
+<string name="lbl_e_learning">E-Learning </string>
+<string name="lbl_brand_colors">brand colors</string>
+<string name="lbl_1k">1k ចូលចិត្ត</string>
+<string name="lbl_5k_like">5k Like </string>
+<string name="msg_by_chhurng_math">By Chhurng Mathin</string>
+<string name="msg_the_poster_des">"The poster design is visually captivating and effectively communicates its message. The color scheme is harmonious, drawing attention without overwhelming the viewer. The typography choice is clear and legible, enhancing readability. The layout is well-structured, guiding the eye smoothly through the information. Overall, an excellent poster design that successfully captures attention and conveys the intended message." </string>
+<string name="lbl_34">#3</string>
+<string name="lbl_5k2">5k </string>
+<string name="lbl_32">3. </string>
+<string name="lbl_33">$3</string>
+<string name="lbl_password">Password</string>
+<string name="msg_digital_marketi">Digital Marketing </string>
+<string name="msg_cost_effective">Cost-effective products attract customers but may result in lower profit margins and quality.
+</string>
+<string name="lbl_touch_points">touch points</string>
+<string name="lbl10">ស្នាដៃសិល្បៈ</string>
+<string name="lbl11">ចាប់ផ្តើម</string>
+<string name="lbl12">ការថតរូប</string>
+<string name="lbl13">ទីផ្សារឌីជីថល</string>
+<string name="lbl14">បន្ត</string>
+<string name="lbl15">រចនា\u200bក្រាហ្វិក</string>
+<string name="lbl16">ម៉ាកយីហោ</string>
+<string name="lbl17">រំលង</string>
+<string name="lbl18">ស្វែងរក</string>
+<string name="lbl19">រៀនអេឡិចត្រូនិច</string>
+<string name="msg_15_inspiring_br">15 Inspiring brand guidelines 
+examples</string>
+<string name="msg_what_are_the_10">What are the 10
+most popular logo colors?</string>
+<string name="lbl_99_comment2">99 Comment</string>
+<string name="lbl_23">#2</string>
+<string name="lbl_7_1k">7,1k ចូលចិត្ត</string>
+<string name="msg_only_serves_chi"> only serves chicken, fish, and vegetables, as most locals do not consume beef.</string>
+<string name="msg_today_somethin">Today 
+Something new
+Have f un!</string>
+<string name="lbl_sale_252">sale ($25)</string>
+<string name="lbl_22">2. </string>
+<string name="msg_the_style_of_ph"> The style of photos in marketing materials and where to source them.
+</string>
+<string name="lbl_80m_follower">80M\u200b\u200b Follower  </string>
+<string name="msg_today_at_9_00_a">Today at 9:00 am</string>
+<string name="msg_1_branded_pack">1. Branded packaging is a point of difference in a 
+competitive market</string>
+<string name="msg_all_documents_a">All documents are provided by brands, designers, or submitted by 
+members for educational purposes. All rights are owned by the authors 
+ and the brand owners</string>
+<string name="msg_briefly_describ">Briefly describe the company\u2019s purpose and long-term goals in two to three sentences.
+</string>
+<string name="msg_what_courses_ar">What courses are you looking for?</string>
+<string name="msg_businesses_don"> businesses don\u2019t have as many </string>
+<string name="msg_i_love_this_go">I love this, Good sharing!!!</string>
+<string name="msg_design_guidelin">DESIGN GUIDELINES</string>
+<string name="lbl_brand_example">Brand Example</string>
+<string name="msg_the_poster_des2">"The poster design is striking and immediately grabs attention with its bold imagery and vibrant colors. The composition is well-balanced, creating a visual flow that leads the viewer from one element to another. The use of typography is creative and adds a dynamic element to the overall design. The incorporation of negative space enhances the focus on key elements and creates a sense of visual clarity. Overall, a visually captivating poster design that effectively communicates its message and leaves a lasting impression."</string>
+<string name="msg_yesterday_2_00">Yesterday 2:00 pm</string>
+<string name="lbl_12">#1</string>
+<string name="lbl_2k2">2k</string>
+<string name="lbl_comments">comments </string>
+<string name="lbl_sign_up">Sign Up</string>
+<string name="msg_mobile_app_desi">Mobile App design: iOS Android ux ui designer</string>
+<string name="lbl_14">14  ចូលចិត្តគេ</string>
+<string name="msg_5_0_46_reviews">5.0 (46 reviews)</string>
+<string name="msg_dark_colors_ar">Dark colors: are taking center stage to add depth, luxury, and a sense of existentialism
+A rise in earth-inspired tones: will add a warm and grounded sense to designs.
+Experimentation with escapism: and intense colors that blur the lines of reality to spark your imagination. </string>
+<string name="msg_design_is_my_su">"Design is my superpower, and I use it to turn dreams into reality. With a focus on user-centric design and a knack for creating intuitive experiences, I'm here to make your brand shine."</string>
+<string name="lbl30">វគ្គសិក្សាថ្មីៗ</string>
+<string name="lbl31">ឆានែលរបស់យើង</string>
+<string name="lbl32">មនុស្សបានចូលរួម</string>
+<string name="lbl33"> ការពិភាក្សា)</string>
+<string name="msg_is_a_married_wh"> is a married white woman, aged 41-56, who lives in a suburban area. She particularly enjoys breakfast items, such as hash browns and sandwiches.
+
+By analyzing its existing consumers\u2019 demographics and behaviors, McDonald\u2019s can create marketing campaigns that appeal to them. Examples include offering breakfasts at a discounted price and Happy Meals to attract the customers\u2019 children.
+
+Understanding the market also helps the fast food chain adapt to different cultures and cuisine preferences. For instance, </string>
+<string name="lbl34">វិចិត្រសាល</string>
+<string name="lbl_champey">Champey</string>
+<string name="lbl_3k_like">3k Like</string>
+<string name="lbl_oatly">Oatly</string>
+<string name="lbl_colors">Colors:</string>
+<string name="lbl_sothea2">Sothea </string>
+<string name="lbl_7_9k2">7,9k</string>
+<string name="msg_introduction_to3">Introduction to 
+Photography</string>
+<string name="msg_introduction_to2">Introduction to 
+UX/UI Design</string>
+<string name="lbl_7_9k3">7,9k </string>
+<string name="msg_innovative_prod">Innovative products: </string>
+<string name="msg_my_best_art_wor">My best Art work! </string>
+<string name="msg_what_are_the_102">What are the 10 most popular logo colors?</string>
+<string name="msg_building_a_stro">Building a strong brand is crucial for starting a successful business, with 305 million startups launching annually. 
+This article covers 10 effective strategies, recognizable brand examples, and answers common questions about branding.</string>
+<string name="msg_logo_acceptabl">Logo: Acceptable logo usage, including colors, sizes, and variations.
+Colors: The brand colors that represent your brand, both the primary and accent colors.
+Typography: The brand fonts, along with size guides and how they can be used.
+Design elements: Shapes, illustrations, and other visual elements that represent your brand.
+Photography: The style of photos in marketing materials and where to source them.
+Mission statement and values: What your brand is about and why your company exists.
+Voice and tone: Words and phrases that should/shouldn\u2019t be used when speaking on behalf of the brand, and the brand voice and tone (ie. compassionate, professional, fun).</string>
+<string name="msg4">ជ្រើសរើសជម្រើសណាមួយ\u2028ដែលពេញចិត្ត</string>
+<string name="lbl_223651"> #223651
+</string>
+<string name="msg_orange_s_popula">"Orange's popularity surges in logo design over the past year."</string>
+<string name="msg3">ការរៀនអេឡិចត្រូនិច</string>
+<string name="msg_learn_how_to_bu">learn how to build a strong brand.</string>
+<string name="msg2">គណនីរបស់អ្នកត្រូវបាន\u2028ចុះឈ្មោះហើយ!</string>
+<string name="msg8">ថ្ងៃនេះម៉ោង ៩ៈ០០ ព្រឹក</string>
+<string name="msg7">សួស្តី! នេះជាផ្ទាំងរូបភាពរបស់ខ្ញុំសម្រាប់ WARPED WING Soda សង្ឃឹមថាអ្នកចូលចិត្តវា!</string>
+<string name="msg6">ថ្ងៃនេះម៉ោង ១ៈ០០ ល្ងាច</string>
+<string name="msg5">ព័ត៌មានអ្នកប្រើប្រាស់</string>
+<string name="lbl_3k2">3k</string>
+<string name="lbl_comment2">Comment </string>
+<string name="msg9">ផ្ទាំងរូបភាពភាពយន្តប្រចាំថ្ងៃសង្ឃឹមថា\u2028ប្រិយមិត្តចូលចិត្ត!!!</string>
+<string name="msg_mission_stateme2">Mission statement and values: </string>
+<string name="lbl_or">Or</string>
+<string name="msg_and_intense_col">and intense colors that blur the lines of reality to spark your imagination. </string>
+<string name="msg_by_horn_thearit">By Horn Thearith </string>
+<string name="lbl_rei">Rei</string>
+<string name="lbl_the_brand">The brand </string>
+<string name="msg_custom_packagin">custom packaging</string>
+<string name="lbl_chakara">Chakara</string>
+<string name="lbl_choum">Choum</string>
+<string name="lbl_taupe">Taupe </string>
+<string name="msg_what_is_brand_p">What is brand packaging?</string>
+<string name="lbl4">ចូល</string>
+<string name="lbl5">ចូលជាមួយ </string>
+<string name="lbl2">អុីម៉ែ\u200bល</string>
+<string name="msg_custom_logo_sta">Custom logo stamp</string>
+<string name="msg_excellent_servi">Excellent service:</string>
+<string name="lbl3">ពាក្យសម្ងាត់</string>
+<string name="msg_option_that_is">option that is the most impact. For example, branded mailer bags show the customer who the package is from immediately. This builds anticipation and excitement for the rest of the unboxing experience.</string>
+<string name="msg_wireframing_and">Wireframing and 
+Prototyping</string>
+<string name="lbl_3_oatly">3. Oatly</string>
+<string name="lbl_122_comments">122 comments </string>
+<string name="lbl_lay_houy2">Lay houy</string>
+<string name="lbl_stickers">Stickers</string>
+<string name="lbl_thearith2">Thearith </string>
+<string name="msg_shapes_illustr">Shapes, illustrations, and other visual elements that represent your brand.
+</string>
+<string name="msg_conduct_competi">"Conduct competitor research to identify market gaps, explore opportunities, and learn from their successes.
+
+List businesses in your niche using Google or competitor analysis tools.
+Examine product/service offerings, pricing, locations, and promotion strategies.
+Perform SWOT analysis to identify strengths, weaknesses, threats, and opportunities.
+Explore competitor's issues on review sites, social media, and forums.
+Develop superior products or services based on findings."</string>
+<string name="msg_mcdonald_s_typi">McDonald\u2019s typical customer</string>
+<string name="lbl_ananda_via">Ananda Via</string>
+<string name="msg_what_your_brand">What your brand is about and why your company exists.
+</string>
+<string name="msg_design_is_my_pl">Design is my playground, and imagination knows no limits. With a passion for pushing boundaries and a commitment to delivering exceptional design solutions,</string>
+<string name="lbl_darany">Darany</string>
+<string name="lbl_susan_sanae">Susan sanae</string>
+<string name="lbl_ford2">FORD
+</string>
+<string name="msg_landscape_and_n">Landscape and Nature 
+Photography</string>
+<string name="lbl_thearith">Thearith</string>
+<string name="lbl_change_to_en">Change to EN</string>
+<string name="lbl_sothea">Sothea</string>
+<string name="msg_acceptable_logo">Acceptable logo usage, including colors, sizes, and variations.
+</string>
+<string name="lbl_printed_art">Printed art</string>
+<string name="msg_somethi">ថ្ងៃនេះ
+Something new
+Have f un!</string>
+<string name="lbl_99_comments">99 comments </string>
+<string name="msg_intro_to_graphi">Intro to Graphic 
+Design</string>
+<string name="msg_brand_packaging">Brand Packaging: Why It Matters and How to Nail it (With Examples!)</string>
+<string name="msg_adobe_creative">Adobe Creative Suite</string>
+<string name="msg_before_a_custom2">Before a customer sees and experiences your product, their first impression of your brand is of your packaging.</string>
+<string name="lbl_by_vannim">By Vannim</string>
+<string name="msg_will_add_a_warm"> will add a warm and grounded sense to designs.
+</string>
+<string name="msg_starting_a_busi">starting a business , b</string>
+<string name="lbl_search2">Search</string>
+<string name="lbl_2021">2021</string>
+<string name="msg_is_a_good_start">is a good start, but there are tons of other elements to include!</string>
+<string name="lbl_2020">2020</string>
+<string name="msg_4_determine_th">4. Determine the Brand Positioning</string>
+<string name="lbl_1_sonos">1. Sonos</string>
+<string name="msg_designing_for_d">Designing for Different 
+Mediums</string>
+<string name="lbl_voice_and_tone">Voice and tone:</string>
+<string name="msg_mcdonald_s_bra">McDonald\u2019s  Brand Guidelines</string>
+<string name="msg_innovative_grap2">Innovative graphic designer specializing in 
+branding and visual identities. </string>
+<string name="lbl_layhouy2">layhouy</string>
+<string name="lbl_layhouy3">Layhouy </string>
+<string name="lbl8">ចូលចិត្តគេ</string>
+<string name="lbl_992">99</string>
+<string name="lbl_2019">2019</string>
+<string name="lbl9">គេ</string>
+<string name="lbl_2018">2018</string>
+<string name="lbl6">ចូលចិត្ត</string>
+<string name="lbl7">ប្រអប់សារ</string>
+<string name="lbl_ford">Ford  </string>
+<string name="msg_what_to_include">What to Include in Your 
+Brand Guidelines</string>
+<string name="lbl_2014">2014</string>
+<string name="lbl_1k2">1k </string>
+<string name="lbl_glossier">Glossier</string>
+<string name="lbl_mr_nathan">Mr. Nathan </string>
+<string name="msg_elements_and_p">Elements and 
+Principles of  Design</string>
+<string name="lbl_3d_designer">3D Designer </string>
+<string name="msg_orange_f5793b">Orange #F5793B
+Deep purple #230344
+Blush beige #C99383
+Gray #AAABAB
+Buttercream #f7e8d3
+Galaxy blue #223651
+Terracotta #B17A50
+Taupe #b9ac9d
+Tangerine #fb9c2a
+Bright blue #137DC5</string>
+<string name="lbl_7_9k">7,9k ចូលចិត្ត</string>
+<string name="lbl_7_1k_likes">7,1k Likes </string>
+<string name="msg_experimentation">Experimentation with escapism: </string>
+<string name="lbl_branded_ribbon">Branded ribbon</string>
+<string name="lbl_see_more">See more</string>
+<string name="lbl_5k_likes">5k Likes </string>
+<string name="lbl_web_design">Web Design</string>
+<string name="msg_3_shades_of_gr">3. Shades of Green</string>
+<string name="msg_thank_you_for_m">Thank you for made this for us like a business man to 
+know the important point to improve. </string>
+<string name="lbl_100">100 មតិយោបល់</string>
+<string name="lbl_starbucks_2014">Starbucks
+2014</string>
+<string name="lbl_102">$10</string>
+<string name="lbl_hannah">Hannah</string>
+<string name="lbl_yi_hao">Yi-Hao</string>
+<string name="lbl_e_commerce">e Commerce</string>
+<string name="msg_vision_statemen2">Vision statement. </string>
+<string name="lbl_galaxy_blue">Galaxy blue</string>
+<string name="lbl_see_all">See all</string>
+<string name="msg_user_interface">User Interface (UI) Design</string>
+<string name="msg_design_is_my_la">Design is my language, and pixels are my 
+paint. With a passion for aesthetics and a 
+dedication to delivering excellence, I create 
+visually compelling designs that leave a 
+lasting impression.</string>
+<string name="msg_amazing_cosmeti">Amazing Cosmetic Poster</string>
+<string name="msg_adding_your_log"> Adding your logo and </string>
+<string name="lbl_orange">Orange </string>
+<string name="lbl_1222">122</string>
+<string name="lbl_fb9c2a">#fb9c2a
+</string>
+<string name="msg_2023_sees_nosta">2023 sees nostalgia-inspired flower-power tones, promoting relaxation and approachability in design for creative, cool, and friendly industries.</string>
+<string name="lbl_456">456 </string>
+<string name="lbl">ចុះឈ្មោះ</string>
+<string name="lbl_user_research">User Research</string>
+<string name="lbl_winnie2">Winnie</string>
+<string name="msg_master_all_the">Master all the skills you need 
+as a Creative Professional</string>
+<string name="lbl_like2">Like </string>
+<string name="msg_mcdonald_s_is_o">"McDonald\u2019s is one of the most popular fast-food chains in the world, known primarily for their hamburgers. The first  McDonald\u2019s restaurant was inaugurated in 1948 in California by the two brothers George and Maurice McDonald (THE EDITORS OF ENCYCLOPAEDIA BRITANNICA, 2018). However, it was in April 1954 that   McDonald\u2019s began their exponential growth and success when Ray Kroc came across
+Mc Donald's restaurant and proposed to help the two brothers franchise their
+restaurant. "</string>
+<string name="lbl_like3">  Like</string>
+<string name="lbl_coca_cola_2020">Coca-Cola
+2020</string>
+<string name="msg_that_represent"> that represent your brand, both the primary and accent colors.
+</string>
+<string name="lbl_like4"> Like </string>
+<string name="msg_this_makes_it_a">
+This makes it a key touch point for establishing a connection with your customer and an important extension of your </string>
+<string name="lbl_like5"> Like</string>
+<string name="lbl_1">1. </string>
+<string name="lbl_7_1k_like2">7,1k Like </string>
+<string name="lbl_graphic_design">Graphic Design </string>
+<string name="lbl_google2">Google</string>
+<string name="lbl_ux_ui_design">UX/UI Design  </string>
+<string name="msg_blush_beige_top">Blush beige tops logo choice for warmth, 
+luxury, modesty.</string>
+<string name="msg_brand_packaging2">Brand Packaging: Why It 
+Matters and How to Nail it 
+(With Examples!)</string>
+<string name="msg_brand_packaging3"> Brand packaging is the physical wrapping or container that holds your product and represents your </string>
+<string name="msg_our_top_logo_co">Our top logo color of 2023 is orange! We\u2019ve seen this citrusy shade 
+pop up twice in our top 10 list, and again in branding and design all 
+over the world.</string>
+<string name="lbl_login">Login</string>
+<string name="lbl_deep_purple">Deep purple </string>
+<string name="lbl_amd">AMD</string>
+<string name="lbl_scooper">Scooper </string>
+<string name="lbl_2_glossier">2. Glossier</string>
+<string name="lbl_photography">Photography</string>
+<string name="msg_web_design_temp">Web Design Template!</string>
+<string name="msg_we_use_color_to">We use color to communicate our visions, goals, and emotions. And with every year bringing about change and reformation, what will color trends look like in 2023?</string>
+<string name="lbl_color_theory">Color Theory</string>
+<string name="lbl_chanmony">Chanmony</string>
+<string name="lbl_1002">100</string>
+<string name="lbl_1003">100 </string>
+<string name="lbl_sonos">Sonos</string>
+<string name="msg_fresher_product">Fresher Product design for client.</string>
+<string name="lbl_b17a50"> #B17A50
+</string>
+<string name="lbl_230344">#230344
+</string>
+<string name="lbl_mathin">Mathin</string>
+<string name="lbl_chhorvon">Chhorvon</string>
+<string name="lbl_winnie">Winnie </string>
+<string name="msg_what_creative_f">What creative fields would 
+you like to see work form? </string>
+<string name="lbl_b9ac9d">#b9ac9d
+</string>
+<string name="msg_values_statemen">Values statement.</string>
+<string name="msg_web_design_is_a">Web design is a specialized area within graphic design.</string>
+<string name="msg_456_people_join">456 People joined</string>
+<string name="msg_lighting_and_e">Lighting and 
+Exposure</string>
+<string name="lbl_today_1_00_p_m">Today 1:00 p.m.</string>
+<string name="msg_taking_a_furthe">Taking a further deep dive into our data, we\u2019ve discovered 5 color trends in 2023. Expect to see a whirlwind of perspectives and emotions, mainly:</string>
+<string name="msg_adobe_creative2">Adobe Creative Suite, particularly Photoshop, Illustrator, and InDesign, are widely used tools in graphic design.</string>
+<string name="lbl_f5793b">#F5793B
+</string>
+<string name="msg_on_it_to_seal_a"> on it to seal a plain box and liven up its exterior.</string>
+<string name="lbl_atith">Atith</string>
+<string name="lbl_142">14 </string>
+<string name="msg_graphic_design">Graphic design maven with a mission to make the world a more visually stunning place. From logos to illustrations, I breathe life into ideas and create designs that make an impact.</string>
+<string name="lbl_honh_thearith">Honh Thearith </string>
+<string name="msg_a_handwritten_t">A handwritten thank-you note</string>
+<string name="msg_define_the_prin"> Define the principles and code of ethics all employees should follow in daily operations.</string>
+<string name="msg_simply_put_the">Simply put, the Brand Identity and Design Standards exist to provide clear, reliable and enduring guidance on how to use the Brand Elements and how to design for the Coca-Cola Zero Brand Identity around the world.
+
+The importance of the Brand Standards, however, is anything but utilitarian. They are central to our ongoing commitment to:
+       1. Maintain authenticity and build Brand equity; 
+      2. Leverage the scale of our System across all markets; 
+      3. Provide more consistency and quality; and 
+      4. Facilitate increased System productivity.
+
+Understanding how the Brand Standards fit into and affect all Brand touchpoints is a precursor to using the Brand Standards. This chapter examines both</string>
+<string name="msg_interaction_des">Interaction Design</string>
+<string name="lbl_24min">24min</string>
+<string name="msg_creative_poster">Creative Poster Design. </string>
+<string name="msg_why_brand_packa">Why brand packaging matters</string>
+<string name="msg_enjoyable_user">Enjoyable user experience: </string>
+<string name="lbl_mathin2">Mathin </string>
+<string name="lbl_chankrisna">Chankrisna</string>
+<string name="msg_passionate_grap">"Passionate graphic designer with a flair 
+for creativity and a keen eye for detail. 
+Transforming ideas into stunning visual 
+experiences is my expertise. Let's 
+collaborate and bring your vision to life"</string>
+<string name="msg_a_rise_in_earth">A rise in earth-inspired tones:</string>
+<string name="lbl_chhaya">Chhaya</string>
+<string name="lbl_253">ទិញ ($25)</string>
+<string name="lbl_branding">Branding </string>
+<string name="lbl_26_content">26 Content</string>
+<string name="lbl_252">$25</string>
+<string name="lbl_99_comment">99 Comment </string>
+<string name="msg_tip_even_the_s2">Tip: Even the smallest touch of branding on your packaging can step your packaging game up. If you\u2019re after an economical option, you could order customized tape with</string>
+<string name="msg_it_s_a_part_of2">It\u2019s a part of your brand\u2019s story. </string>
+<string name="msg_4_brand_guideli">4 Brand Guidelines Examples to 
+Inspire Your Brand Guide</string>
+<string name="msg_understanding">Understanding 
+Lenses</string>
+<string name="lbl_video">Video </string>
+<string name="msg_vision_statemen">Vision statement. Briefly describe the company\u2019s purpose and long-term goals in two to three sentences.
+Mission statement. Explain how the products impact customers and the steps required to achieve the vision.
+Values statement. Define the principles and code of ethics all employees should follow in daily operations.</string>
+<string name="lbl_logo">Logo: </string>
+<string name="lbl_123">12 មតិយោបល់</string>
+<string name="lbl_122">122 មតិយោបល់</string>
+<string name="lbl_124">12</string>
+<string name="msg_introduction_to">Introduction to Graphic Design</string>
+<string name="lbl_nathan2">Nathan </string>
+<string name="msg_mission_stateme">Mission statement.</string>
+<string name="lbl_7_5">$7.5</string>
+<string name="lbl_80m_follower2">80M\u200b\u200b Follower </string>
+<string name="lbl_welcome">Welcome</string>
+<string name="msg_and_tone_ie_c"> and tone (ie. compassionate, professional, fun).</string>
+<string name="msg_directed_by_tyl">Directed by Tyler Brooks and designed by Hannah Steinberg (SD), Loren Schott, Hollis Callas, Oliver Lo, and Sydney Bradshaw. Typography by Dalton Maag.</string>
+<string name="msg_it_s_a_part_of">It\u2019s a part of your brand\u2019s story. Think about the mission, values, and personality behind your brand and how you can bring that into your packaging. Adding your logo and brand colors is a good start, but there are tons of other elements to include!</string>
+<string name="msg_let_s_look_at_t">Let\u2019s look at the reasons brand packaging can improve your business and amplify your customer\u2019s experience.</string>
+<string name="lbl_design">Design</string>
+<string name="msg_amd_20">AMD ម៉ាកយីហោ
+2018</string>
+<string name="msg_street_photogra">Street Photography</string>
+<string name="lbl_khal_author2">Khal Author </string>
+<string name="msg_when_it_comes_t2">When it comes to</string>
+<string name="msg_amd_brand_guide">AMD Brand Guidelines</string>
+<string name="lbl_popular_courses">Popular courses</string>
+<string name="lbl_aaabab">#AAABAB
+</string>
+<string name="msg_the_most_poster">The most poster of movie of the day! Hope you guy like it!!! </string>
+<string name="msg_composition_and">Composition and 
+Framing</string>
+<string name="msg_design_elements">Design elements: </string>
+<string name="msg_hi_guys_this_i">Hi! guys this is my poster for WARPED WING Soda, Hope you like it!  </string>
+<string name="lbl_amd_branding">AMD Branding
+</string>
+<string name="lbl_234">(234</string>
+<string name="msg_15_brand_guidel2">15 brand guidelines creatively use visual identity for product, personality, purpose.</string>
+<string name="msg_digital_illustr">Digital Illustration</string>
+<string name="msg_words_and_phras"> Words and phrases that should/shouldn\u2019t be used when speaking on behalf of the brand, and the </string>
+<string name="lbl_design3">DESIGN</string>
+<string name="lbl_find_a_course">Find a course</string>
+<string name="lbl_mail">Mail</string>
+<string name="lbl_comment">Comment</string>
+<string name="lbl_design2">DESIGN </string>
+<string name="msg_poster_design_f">Poster design for my work, last week! </string>
+<string name="lbl_sophea2">Sophea </string>
+<string name="msg_design_alchemis">Design alchemist | Transforming ideas into visual gold | With a passion for blending creativity and strategy, I concoct designs that captivate and convert</string>
+<string name="lbl_scooper2">Scooper</string>
+<string name="msg_tip_for_maximu2">Tip: For maximum brand awareness, look for the </string>
+<string name="msg_according_to_re">According to research, McDonald\u2019s typical customer is a married white woman, aged 41-56, who lives in a suburban area. She particularly enjoys breakfast items, such as hash browns and sandwiches.
+
+By analyzing its existing consumers\u2019 demographics and behaviors, McDonald\u2019s can create marketing campaigns that appeal to them. Examples include offering breakfasts at a discounted price and Happy Meals to attract the customers\u2019 children.
+
+Understanding the market also helps the fast food chain adapt to different cultures and cuisine preferences. For instance, McDonald\u2019s India only serves chicken, fish, and vegetables, as most locals do not consume beef.</string>
+<string name="lbl_motion_graphic">Motion Graphic</string>
+<string name="lbl_typography2">Typography</string>
+<string name="lbl_photography2">Photography:</string>
+<string name="lbl_photography3">PHOTOGRAPHY</string>
+<string name="msg_graphic_designe2">Graphic designer by day, creative wizard by night. I thrive on pushing the boundaries of design and exploring new possibilities.</string>
+<string name="lbl_course_content">Course Content</string>
+<string name="lbl_4_5">4.5</string>
+<string name="lbl_7_9k_like">7,9k Like</string>
+<string name="msg_target_high_end">Target high-end consumers with quality products, showcasing production process, materials, benefits.</string>
+<string name="lbl_nathan">Nathan</string>
+<string name="msg_usability_testi">Usability Testing and 
+Iterative Design</string>
+<string name="msg_when_it_comes_t">When it comes to starting a business , brand packaging can often be an afterthought.
+
+But neglecting brand packaging bypasses a golden opportunity to influence brand perception! e Commerce businesses don\u2019t have as many touch points with customers as brick-and-mortar businesses do. So, it\u2019s important to tap into the ones that are available!
+
+We\u2019ll cover the benefits of brand packaging, along with some examples of the best brand packaging out there. Let\u2019s dive in!</string>
+<string name="lbl_sale_25">Sale ($25)</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="msg_80m">80M\u200b\u200b គេចូលចិត្ត  </string>
+<string name="lbl_skip">Skip</string>
+<string name="lbl_100_comments">100 comments </string>
+<string name="lbl_amd2">AMD </string>
+<string name="msg_what_is_graphic">What is Graphic Design? </string>
+<string name="lbl_c99383">#C99383
+</string>
+<string name="lbl_7_1k2">7,1k </string>
+<string name="msg_are_taking_cent">are taking center stage to add depth, luxury, and a sense of existentialism
+</string>
+<string name="lbl_1k_like">1k Like</string>
+<string name="msg_this_course_can">This course can delve into the principles of layout and composition.</string>
+<string name="msg_green_cools_und">Green cools undertones, creating a calm, collected appearance in industries.</string>
+<string name="msg_develop_a_seaml">Develop a seamless user experience through user-friendly interfaces, cross-platform compatibility.
+</string>
+<string name="lbl_typography">Typography: </string>
+<string name="lbl_good_idea">Good idea !</string>
+<string name="msg_3_analyze_the">3. Analyze the Competition</string>
+<string name="msg_best_courses_fo">Best Courses for everyone, Adobe Photoshop for free </string>
+<string name="lbl_by_hannah">By Hannah</string>
+<string name="msg_top_ten_logo_co">Top ten logo color trends feature earthy hues for entrepreneurs and designers.</string>
+<string name="lbl_chanlina">Chanlina</string>
+<string name="msg_building_a_stro2">Building a strong brand identity is an extensive process beyond creating a brand name and logo. In this section, we\u2019ll go over the ten necessary steps to build a brand.</string>
+<string name="msg_coca_cola_brand">Coca-Cola Brand Guidelines</string>
+<string name="lbl_explore">Explore </string>
+<string name="lbl_100_comment2">100 Comment </string>
+<string name="lbl_coca_cola">Coca-Cola
+</string>
+<string name="lbl_152">$15</string>
+<string name="msg_some_of_my_post">Some of my poster design.</string>
+<string name="msg_branding_and_lo">Branding and Logo Design</string>
+<string name="lbl_next">Next</string>
+<string name="msg_game_app_gami">Game App &amp; Gaming Store Template!</string>
+<string name="lbl_bright_blue">Bright blue </string>
+<string name="lbl_122_comment">122 Comment </string>
+<string name="msg_brand_guideline3">Brand Guidelines</string>
+<string name="msg_brand_guideline2">Brand guidelines maintain consistency, build trust, and establish authority.
+
+Brand guidelines maintain consistency, build trust, and establish authority.</string>
+<string name="msg_my_best_artwork">My Best Artwork!</string>
+<string name="lbl_2k_like">2k Like </string>
+<string name="lbl_what_is_a_brand">What Is a Brand</string>
+<string name="msg_brand_experienc">brand experience</string>
+<string name="msg_the_ford_brand">\u2028The Ford Brand Design System applies to anything involving the Ford Brand wherever it is represented.\u2028Contained within are the foundational elements we will use to continue to build upon the equities of the Ford Brand in the retail space.</string>
+<string name="lbl_hannah2">Hannah </string>
+<string name="lbl_26_courses">26 Courses</string>
+<string name="msg_rand_packaging">rand packaging can often be an afterthought.
+
+But neglecting brand packaging bypasses a golden opportunity to influence brand perception! </string>
+<string name="msg_a_brand_is_an_i">"A brand is an intangible concept that gives businesses a distinctive identity, helping customers recognize them better. 
+
+It represents a company's values and ideas through logos, slogans, products, or services. Brand-building aims to build a good reputation, develop trust, and foster emotional connections with customers. 
+
+Trust leads to increased purchases, recommendations, loyalty programs, and positive reviews, making a solid and memorable brand crucial for a successful business."</string>
+<string name="msg_these_guideline">These guidelines are an introduction to AMD\u2019s brand strategy and visual identity system. On the following pages, you will find sample branding and communications information, a detailed design toolkit, and layouts that demonstrate ways to create a consistent voice and visual identity across all of our communications. Think of this document as a way to help you get to your destination. The work you do to keep our look and feel as consistent as possible will go a long way toward defining what the brand means for us now and in the future.
+
+ Let\u2019s get started.</string>
+<string name="msg_starbucks_brand">STARBUCKS Brand Guidelines</string>
+<string name="msg_if_you_re_not_q">If you\u2019re not quite convinced yet, here are four reasons why branded packaging can make all the difference to your brand.</string>
+<string name="msg_the_purpose_of">The Purpose of This Document</string>
+<string name="lbl_7_9k_like2">7,9k Like </string>
+<string name="msg_visual_design_p">Visual Design Principles</string>
+<string name="lbl_vinnarak_kavey">Vinnarak Kavey</string>
+<string name="msg_in_fact_40">. In fact, 40% of online shoppers say branded packaging makes them more likely to recommend a product to friends.
+</string>
+<string name="msg_explain_how_the"> Explain how the products impact customers and the steps required to achieve the vision.
+</string>
+<string name="lbl_sok_layhouy">Sok Layhouy </string>
+<string name="msg_orange_was_the">Orange was the most-used logo color, 
+appearing twice as tiger and lighter.</string>
+<string name="msg_digital_illustr2">Digital illustration has become increasingly popular in graphic design. </string>
+<string name="msg_according_to_re2">According to research, </string>
+<string name="msg_brand_positioni">Brand positioning differentiates a business by offering unique features and benefits that set it apart from competitors.
+Start by figuring out key features and benefits that other companies do not offer, such as:
+
+Affordable prices: Cost-effective products attract customers but may result in lower profit margins and quality.
+Innovative products: Create innovative, unique products for increased pricing freedom.
+Excellent service: Offer 24/7 customer support and after-sales service for loyalty.
+Enjoyable user experience: Develop a seamless user experience through user-friendly interfaces, cross-platform compatibility.
+Premium goods: Target high-end consumers with quality products, showcasing production process, materials, benefits.</string>
+<string name="msg_motion_graphics">Motion graphics combine animation and graphic design to create engaging visual content.</string>
+<string name="msg20">ខ្លឹមសារនៃវគ្គសិក្សា</string>
+<string name="lbl_14_following">14  Following</string>
+<string name="msg15">គោលការណ៍ណែនាំម៉ាក</string>
+<string name="msg14">ចំណេះដឹងទូទៅ៖ ស្វែងយល់ពីគំនិតនៃការបង្កើតស្លាកយីហោដ៏\u200b
+ល្បីល្បាញជុំវិញពិភពលោកមួយចំនួន</string>
+<string name="lbl_google">ចូលជាមួយ Google</string>
+<string name="msg_brand_guideline">Brand guidelines guide consistent expression of a brand using colors, spacing, fonts, logos, and voice. Top examples and tips provided.</string>
+<string name="msg17">ស្វែងរកវគ្គសិក្សា</string>
+<string name="msg16">តើអ្នកកំពុងស្វែងរកវគ្គសិក្សាអ្វីខ្លះ?</string>
+<string name="msg11">ចំណេះដឹងទូទៅ៖ ស្វែងយល់ពីគំនិតនៃការ
+បង្កើតស្លាកយីហោដ៏\u200bល្បីល្បាញជុំវិញពិភព
+លោកមួយចំនួន</string>
+<string name="msg10">តើអ្វីជាសំណើតម្លៃពិសេសរបស់ម៉ាកហើយតើវាខុសគ្នាពីដៃគូប្រកួតប្រជែងនៅក្នុងទីផ្សារយ៉ាងដូចម្តេច?</string>
+<string name="msg_tip_for_maximu">Tip: For maximum brand awareness, look for the custom packaging option that is the most impact. For example, branded mailer bags show the customer who the package is from immediately. This builds anticipation and excitement for the rest of the unboxing experience.</string>
+<string name="msg_create_innovati">Create innovative, unique products for increased pricing freedom.
+</string>
+<string name="msg13">ការប្រើប្រាស់អក្សរសិល្ប៍មានភាពច្នៃប្រឌិត និងបន្ថែមធាតុថាមវន្ត។ ទៅនឹងការរចនាទាំងមូល។ការដាក់បញ្ចូលចន្លោះអវិជ្ជមានជួយបង្កើនការផ្តោតអារម្មណ៍លើធាតុសំខាន់ៗ និងបង្កើតអារម្មណ៍នៃភាពច្បាស់លាស់នៃរូបភាព។</string>
+<string name="lbl_7_1k_like">7,1k Like</string>
+<string name="msg12">ការរចនាផ្ទាំងរូបភាពមានភាពទាក់ទាញដោយមើលឃើញ និងមានប្រសិទ្ធភាពក្នុងការទំនាក់ទំនងសាររបស់វា។</string>
+<string name="msg_what_is_the_bra">"What is the brand's unique 
+value proposition and how 
+does it differentiate itself 
+from competitors in the 
+market?"</string>
+<string name="lbl_3_6">3.6</string>
+<string name="msg_234_discussion">(234 discussions)</string>
+<string name="msg19">វគ្គសិក្សាពេញនិយម</string>
+<string name="msg18">ប្រភេទវគ្គសិក្សា</string>
+<string name="lbl_bunroeun_via">Bunroeun Via</string>
+<string name="lbl_tangerine">Tangerine </string>
+<string name="msg_we_analyzed_ove">We analyzed over 66,000+ logos from users worldwide and found these top 10 most popular logo colors: </string>
+<string name="lbl_mcdonald_s_2019">McDonald\u2019s
+2019</string>
+<string name="lbl_course_type">Course type</string>
+<string name="lbl_tissue_paper">Tissue paper</string>
+<string name="lbl_4_airbnb">4. Airbnb</string>
+<string name="lbl_branding2">Branding</string>
+<string name="msg_highlight_point">"Highlight points of differentiation: Identify specific aspects of the brand's products, services, or customer experience that differentiate it from competitors. This could be through unique features, superior quality, customization options, sustainability initiatives, or any other distinctive factors."</string>
+<string name="lbl_1k_likes">1k Likes </string>
+<string name="msg_having_packagin">Having packaging that\u2019s unique to your brand is a big advantage to help you wow your customer and stand out. Humans are visual creatures and appearances help us form first impressions. As a brand, you want to win over your customers and that starts with a strong visual identity.</string>
+<string name="lbl_sok_layhouy2">Sok Layhouy</string>
+<string name="lbl_popular_brands">Popular Brands</string>
+<string name="lbl_chhurng_mathin">Chhurng Mathin</string>
+<string name="lbl_chhang_sothea">Chhang Sothea</string>
+<string name="msg_branding_and_id">Branding and Identity 
+Design</string>
+<string name="msg_hello_everyone">Hello everyone I\u2019m Sothea 
+I\u2019m a graphic Design.</string>
+<string name="lbl_photographer">Photographer </string>
+<string name="msg_your_account_ha">Your account has been register up!</string>
+<string name="msg">បញ្ចូលអុីម៉ែ\u200bល និងពាក្យសម្ងាត់របស់អ្នកខាងក្រោម</string>
+<string name="msg_graphic_designe">"Graphic designer extraordinaire | Fueled by caffeine and creativity | Crafting mesmerizing designs that captivate and inspire | Let's collaborate and make magic happen!"</string>
+<string name="msg_1_define_the_b">1. Define the Business Goals and Values</string>
+<string name="lbl_2k_likes">2k Likes </string>
+<string name="msg_with_customers"> with customers as brick-and-mortar businesses do. So, it\u2019s important to tap into the ones that are available!
+
+We\u2019ll cover the benefits of brand packaging, along with some examples of the best brand packaging out there. Let\u2019s dive in!</string>
+<string name="lbl_layhouy">Layhouy</string>
+<string name="lbl_today_9_00_am">Today 9.00 AM</string>
+<string name="lbl_e_learning2">E-Learning</string>
+<string name="lbl_7_9k_likes">7,9k Likes </string>
+<string name="lbl_gray">Gray </string>
+<string name="lbl_airbnb">Airbnb</string>
+<string name="lbl_rei2">Rei </string>
+<string name="lbl_gallery">Gallery</string>
+<string name="msg_logo_color_tren">Logo color trend one: 
+Vintage aesthetic</string>
+<string name="msg_2_research_you">2. Research Your Brand\u2019s Target Audience</string>
+<string name="lbl_graphic_design4"> Graphic Design</string>
+<string name="lbl_graphic_design3">Graphic Design  </string>
+<string name="msg_affordable_pric">Affordable prices: </string>
+<string name="lbl_graphic_design2">Graphic Design</string>
+<string name="lbl_buttercream">Buttercream </string>
+<string name="lbl_follow">Follow </string>
+<string name="msg_these_are_just">These are just some ideas for how to further your brand\u2019s story in your packaging.</string>
+<string name="msg_mail_password">Mail &amp; Password below</string>
+<string name="lbl_99">99 មតិយោបល់</string>
+<string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</string>
+<string name="msg_we_are_pleased">"We are pleased that you have chosen to serve Starbucks coffee or beverages to your customers, and delighted that you wish to use your time and resources to promote our coffee. To help you, Starbucks Coffee Company has created the Customizable Marketing Toolkit templates available on the We Proudly Serve Foodservice website.\u2028This is to ensure you're getting the full advantage of your association with Starbucks Coffee Company, as well as help you avoid any incorrect and/or inappropriate usage of the We Proudly Serve Starbucks logo and brand identity. For further details, please see the Approval Process on page 11. Note also that the Starbucks Siren logo may never be used independent of the "We Proudly Serve" text."</string>
+<string name="lbl_4_52">$4.5</string>
+<string name="lbl_sophea">Sophea</string>
+<string name="lbl_5_22">$5.2</string>
+<string name="msg_layout_and_comp">Layout and Composition</string>
+<string name="msg_amd_branding_20">AMD Branding
+2018</string>
+<string name="msg_before_starting">Before starting the brand-building process, define the business goals and values. This will help you understand the company\u2019s greater purpose and the necessary measures to fulfill it.
+
+Although there is no fixed format, the following can help you define your business\u2019s goals and values:</string>
+<string name="lbl_your_logo">your logo</string>
+<string name="lbl_terracotta">Terracotta</string>
+<string name="lbl_akara">Akara</string>
+<string name="msg_all_documents_a2">All documents are provided by brands, designers, or submitted by members for educational purposes. All rights are owned by the authors and the brand owners.</string>
+<string name="msg_before_a_custom">Before a customer sees and experiences your product, their first impression of your brand is of your packaging. Brand packaging is the physical wrapping or container that holds your product and represents your brand identity.
+
+This makes it a key touch point for establishing a connection with your customer and an important extension of your brand experience. In fact, 40% of online shoppers say branded packaging makes them more likely to recommend a product to friends.
+
+If you\u2019re not quite convinced yet, here are four reasons why branded packaging can make all the difference to your brand.</string>
+<string name="lbl_search">Search </string>
+<string name="lbl_enterprenure">Enterprenure</string>
+<string name="lbl_davuth">Davuth</string>
+<string name="msg_innovative_grap">"Innovative graphic designer specializing in 
+branding and visual identities. I believe in the 
+power of design to make a lasting impact. 
+Let's elevate your brand and make it stand 
+out in the crowd!"</string>
+<string name="lbl_ford_2021">FORD
+2021</string>
+<string name="msg_2_branded_pack">2. Branded packaging reinforces your brand\u2019s 
+identity and tells its story</string>
+<string name="msg_along_with_si">, along with size guides and how they can be used.
+</string>
+<string name="msg_15_brand_guidel">15 Brand Guidelines Examples to Inspire Your Brand Guide&#13;</string>
+<string name="lbl_4_22">4.2</string>
+<string name="lbl_459_joined">459+ Joined</string>
+<string name="msg_456_people_atte">456 people attended</string>
+<string name="msg_camera_settings">Camera Settings and Controls</string>
+<string name="msg_think_about_the">Think about the mission, values, and personality behind your brand and how you can bring that into your packaging.</string>
+<string name="msg_typography_in_g">Typography in Graphic 
+Design</string>
+<string name="lbl_mcdonald_s">McDonald\u2019s
+</string>
+<string name="lbl_137dc5">#137DC5</string>
+<string name="lbl_postcards">Postcards</string>
+<string name="msg_tesla_addresses">Tesla addresses the competitive gas-powered vehicle market gap by offering eco-friendly electric cars, reducing carbon emissions and air pollution, promoting human health and climate change.</string>
+<string name="lbl_premium_goods">Premium goods: </string>
+<string name="msg_mcdonald_s_indi">McDonald\u2019s India</string>
+<string name="msg_how_to_build_a">How to Build a Strong Brand</string>
+<string name="lbl_mao_sokhem">Mao Sokhem</string>
+<string name="lbl_khal_author">Khal Author</string>
+<string name="msg_00">ម្សិលមិញ ២ៈ00 ល្ងាច</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+</resources>
